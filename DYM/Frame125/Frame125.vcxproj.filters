@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="99. Header">
+      <UniqueIdentifier>{586cc33c-7c49-44fe-aecb-3887547cc9a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. MainGame">
+      <UniqueIdentifier>{b35b08b9-42b1-4ec7-9720-9672c69d5509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj">
+      <UniqueIdentifier>{792d1633-7258-4fdd-8292-0caa4b322d86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. Player">
+      <UniqueIdentifier>{df340411-4533-480e-aad1-8e9d81f586c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01.Monster">
+      <UniqueIdentifier>{e6fb4fe1-8aff-4799-aa80-7be666ff3dbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01.Monster\00.Monster1">
+      <UniqueIdentifier>{6c0ecb24-5805-4b83-9856-1d9bf8eb9931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02.bullet">
+      <UniqueIdentifier>{fdcbfc61-fa07-4d12-9689-286fb847e5ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.AbstractFactory">
+      <UniqueIdentifier>{aff41f17-113a-4122-8210-1106995b3ef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02.bullet\00.Bullet">
+      <UniqueIdentifier>{2be13222-96c6-4e37-a88a-bffe737579f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager">
+      <UniqueIdentifier>{ef0b320f-c32c-4ad3-affc-13e6427bbaf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\ObjMgr">
+      <UniqueIdentifier>{e0dc5588-590d-41d7-b404-a4a6bedd49e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\CollisonMgr">
+      <UniqueIdentifier>{fe0adf2a-9ef2-494f-8e44-484ad0eaa184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\SceneMgr">
+      <UniqueIdentifier>{3f08ebaa-5986-4a72-a90a-90e3c80dc659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stage">
+      <UniqueIdentifier>{cb6d512f-8d7f-44ef-bdee-e7bdd778e1c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01.Monster\01.Boss">
+      <UniqueIdentifier>{9b237ffa-e6ef-4fa4-a617-e3779a8a8b5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02.bullet\01.Hack">
+      <UniqueIdentifier>{ae608d0b-7b6c-4768-b2ea-4f6d1dd75b27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02.bullet\03.Bullet3">
+      <UniqueIdentifier>{94678986-83a1-4703-9c43-187f566f0350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02.bullet\02.Razer">
+      <UniqueIdentifier>{a829af0a-9ee3-4db8-8db0-8a968055dcd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02.bullet\04.Bullet4">
+      <UniqueIdentifier>{1448f1e5-0a55-4180-966d-218aeaaeb357}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02.bullet\05.Bullet5">
+      <UniqueIdentifier>{11fbea0c-725d-4ba8-b5b4-e8f2981024cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stage\Start">
+      <UniqueIdentifier>{9821c7b2-91da-4c1a-bda3-114296cf9b33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01.Monster\02.stage2Monster">
+      <UniqueIdentifier>{6d1520e5-e77d-4536-8456-b3fc4e797a94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01.Monster\03.stage2Monster2">
+      <UniqueIdentifier>{84840232-2fa1-4d2f-a838-7cbb9241fde3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stage\Ending">
+      <UniqueIdentifier>{8ef73401-60b3-4143-942f-1497b464e6fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01.Monster\04.stage2Monster3">
+      <UniqueIdentifier>{d04a5bed-93ee-4b80-a398-1cea71661463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02.bullet\02.Razer\RazerBullet">
+      <UniqueIdentifier>{26a80a85-f5cd-408e-9ff1-37ff80de97b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01.Monster\01.Boss\BossBullet">
+      <UniqueIdentifier>{26adecc1-a8cd-403d-8032-58de0ce8e624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01.Monster\05.Stage3Monster">
+      <UniqueIdentifier>{2d55232a-56a0-4db6-92c3-7732af8c3763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01.Monster\05.Stage3Monster\LEFTDOWN">
+      <UniqueIdentifier>{8b1cfe4e-e39c-44a5-8a6c-322a1f138ed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01.Monster\05.Stage3Monster\LEFTUP">
+      <UniqueIdentifier>{70355cdb-108d-438d-8bfe-25beecbf666d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01.Monster\05.Stage3Monster\RIGHTDOWN">
+      <UniqueIdentifier>{dd173186-4be4-47ab-abfa-b3d0228ed1d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01.Monster\05.Stage3Monster\RIGHTUP">
+      <UniqueIdentifier>{6a1a04fc-580d-49ef-a401-9007a81ecd5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02.bullet\MonsterBullet">
+      <UniqueIdentifier>{8c4c3a11-d7da-4fed-962d-363ab81145fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stage\Stage1.">
+      <UniqueIdentifier>{9f75693e-c93d-4193-8572-aebb0b6eacb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stage\Stage2.">
+      <UniqueIdentifier>{3969ffc7-d034-4316-bdfc-7047585ad0aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stage\Stage3">
+      <UniqueIdentifier>{72de8829-6b7a-462c-accd-1ed5bf1574ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02.bullet\06.Bullet6">
+      <UniqueIdentifier>{ca8718fd-baa5-4afc-b238-82dcef20acd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02.bullet\06.Bullet6\Bullet1_1">
+      <UniqueIdentifier>{635f7c50-aac5-4b46-a1c2-aad17939fdff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02.bullet\06.Bullet6\Bullet1_2">
+      <UniqueIdentifier>{10a7cc5a-d939-415b-91dd-b0aeac30b179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02.bullet\07.Bullet7">
+      <UniqueIdentifier>{5fa82faa-0fe0-459b-8489-e34bd9059033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02.bullet\07.Bullet7\BulletX">
+      <UniqueIdentifier>{f9038867-a35e-41dc-b0f2-d7f33703bce0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame125.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>00. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>01. Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01. Obj\00. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Fucntion.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>01. Obj\01.Monster\00.Monster1</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>02.AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>99. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>01. Obj\02.bullet\00.Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>01. Obj\01.Monster\01.Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Razer.h">
+      <Filter>01. Obj\02.bullet\02.Razer</Filter>
+    </ClInclude>
+    <ClInclude Include="MyObjMgr.h">
+      <Filter>03.Manager\ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>03.Manager\CollisonMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack.h">
+      <Filter>01. Obj\02.bullet\01.Hack</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>03.Manager\SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1.h">
+      <Filter>Stage\Stage2.</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2.h">
+      <Filter>Stage\Stage3</Filter>
+    </ClInclude>
+    <ClInclude Include="Start.h">
+      <Filter>Stage\Start</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet3.h">
+      <Filter>01. Obj\02.bullet\03.Bullet3</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet4.h">
+      <Filter>01. Obj\02.bullet\04.Bullet4</Filter>
+    </ClInclude>
+    <ClInclude Include="S2Monster1.h">
+      <Filter>01. Obj\01.Monster\02.stage2Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="S2Monster2.h">
+      <Filter>01. Obj\01.Monster\03.stage2Monster2</Filter>
+    </ClInclude>
+    <ClInclude Include="Ending.h">
+      <Filter>Stage\Ending</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet5.h">
+      <Filter>01. Obj\02.bullet\05.Bullet5</Filter>
+    </ClInclude>
+    <ClInclude Include="stage2Monster3.h">
+      <Filter>01. Obj\01.Monster\04.stage2Monster3</Filter>
+    </ClInclude>
+    <ClInclude Include="RazerBullet.h">
+      <Filter>01. Obj\02.bullet\02.Razer\RazerBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="BossBullet.h">
+      <Filter>01. Obj\01.Monster\01.Boss\BossBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="BossBullet2.h">
+      <Filter>01. Obj\01.Monster\01.Boss\BossBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage3.h">
+      <Filter>Stage\Stage1.</Filter>
+    </ClInclude>
+    <ClInclude Include="LD.h">
+      <Filter>01. Obj\01.Monster\05.Stage3Monster\LEFTDOWN</Filter>
+    </ClInclude>
+    <ClInclude Include="LU.h">
+      <Filter>01. Obj\01.Monster\05.Stage3Monster\LEFTUP</Filter>
+    </ClInclude>
+    <ClInclude Include="RD.h">
+      <Filter>01. Obj\01.Monster\05.Stage3Monster\RIGHTDOWN</Filter>
+    </ClInclude>
+    <ClInclude Include="RU.h">
+      <Filter>01. Obj\01.Monster\05.Stage3Monster\RIGHTUP</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterBullet2.h">
+      <Filter>01. Obj\02.bullet\MonsterBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet6.h">
+      <Filter>01. Obj\02.bullet\06.Bullet6</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet1_1.h">
+      <Filter>01. Obj\02.bullet\06.Bullet6\Bullet1_1</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet1_2.h">
+      <Filter>01. Obj\02.bullet\06.Bullet6\Bullet1_2</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet7.h">
+      <Filter>01. Obj\02.bullet\07.Bullet7</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletX.h">
+      <Filter>01. Obj\02.bullet\07.Bullet7\BulletX</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame125.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>01. Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01. Obj\00. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>01. Obj\01.Monster\00.Monster1</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>01. Obj\02.bullet\00.Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>01. Obj\01.Monster\01.Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Razer.cpp">
+      <Filter>01. Obj\02.bullet\02.Razer</Filter>
+    </ClCompile>
+    <ClCompile Include="MyObjMgr.cpp">
+      <Filter>03.Manager\ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>03.Manager\CollisonMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack.cpp">
+      <Filter>01. Obj\02.bullet\01.Hack</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>03.Manager\SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1.cpp">
+      <Filter>Stage\Stage2.</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2.cpp">
+      <Filter>Stage\Stage3</Filter>
+    </ClCompile>
+    <ClCompile Include="Start.cpp">
+      <Filter>Stage\Start</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet3.cpp">
+      <Filter>01. Obj\02.bullet\03.Bullet3</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet4.cpp">
+      <Filter>01. Obj\02.bullet\04.Bullet4</Filter>
+    </ClCompile>
+    <ClCompile Include="S2Monster1.cpp">
+      <Filter>01. Obj\01.Monster\02.stage2Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="S2Monster2.cpp">
+      <Filter>01. Obj\01.Monster\03.stage2Monster2</Filter>
+    </ClCompile>
+    <ClCompile Include="Ending.cpp">
+      <Filter>Stage\Ending</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet5.cpp">
+      <Filter>01. Obj\02.bullet\05.Bullet5</Filter>
+    </ClCompile>
+    <ClCompile Include="stage2Monster3.cpp">
+      <Filter>01. Obj\01.Monster\04.stage2Monster3</Filter>
+    </ClCompile>
+    <ClCompile Include="RazerBullet.cpp">
+      <Filter>01. Obj\02.bullet\02.Razer\RazerBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="BossBullet.cpp">
+      <Filter>01. Obj\01.Monster\01.Boss\BossBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="BossBullet2.cpp">
+      <Filter>01. Obj\01.Monster\01.Boss\BossBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage3.cpp">
+      <Filter>Stage\Stage1.</Filter>
+    </ClCompile>
+    <ClCompile Include="LD.cpp">
+      <Filter>01. Obj\01.Monster\05.Stage3Monster\LEFTDOWN</Filter>
+    </ClCompile>
+    <ClCompile Include="LU.cpp">
+      <Filter>01. Obj\01.Monster\05.Stage3Monster\LEFTUP</Filter>
+    </ClCompile>
+    <ClCompile Include="RD.cpp">
+      <Filter>01. Obj\01.Monster\05.Stage3Monster\RIGHTDOWN</Filter>
+    </ClCompile>
+    <ClCompile Include="RU.cpp">
+      <Filter>01. Obj\01.Monster\05.Stage3Monster\RIGHTUP</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterBullet2.cpp">
+      <Filter>01. Obj\02.bullet\MonsterBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet6.cpp">
+      <Filter>01. Obj\02.bullet\06.Bullet6</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet1_1.cpp">
+      <Filter>01. Obj\02.bullet\06.Bullet6\Bullet1_1</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet1_2.cpp">
+      <Filter>01. Obj\02.bullet\06.Bullet6\Bullet1_2</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet7.cpp">
+      <Filter>01. Obj\02.bullet\07.Bullet7</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletX.cpp">
+      <Filter>01. Obj\02.bullet\07.Bullet7\BulletX</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Frame125.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Frame125.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

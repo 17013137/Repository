@@ -1,0 +1,102 @@
+﻿  stdafx.cpp
+  Start.cpp
+  Stage3.cpp
+c:\users\82109\desktop\쥬신\dym\frame125\stage3.cpp(28): warning C4101: 'tmp' :참조되지 않은 지역 변수입니다.
+  stage2Monster3.cpp
+c:\users\82109\desktop\쥬신\dym\frame125\stage2monster3.cpp(150): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\stage2monster3.cpp(178): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Stage2.cpp
+c:\users\82109\desktop\쥬신\dym\frame125\stage2.cpp(39): warning C4305: '인수': 'double'에서 'FLOAT'(으)로 잘립니다.
+c:\users\82109\desktop\쥬신\dym\frame125\stage2.cpp(42): warning C4305: '인수': 'double'에서 'FLOAT'(으)로 잘립니다.
+c:\users\82109\desktop\쥬신\dym\frame125\stage2.cpp(51): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\stage2.cpp(24): warning C4101: 'tmp' :참조되지 않은 지역 변수입니다.
+c:\users\82109\desktop\쥬신\dym\frame125\abstractfactory.h(39): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  c:\users\82109\desktop\쥬신\dym\frame125\abstractfactory.h(36): note: 클래스 템플릿 멤버 함수 'CObj *CAbstractFactory<stage2Monster3>::Create(float,float,float)'을(를) 컴파일하고 있습니다.
+  c:\users\82109\desktop\쥬신\dym\frame125\stage2.cpp(51): note: 컴파일 중인 함수 템플릿 인스턴스화 'CObj *CAbstractFactory<stage2Monster3>::Create(float,float,float)'에 대한 참조를 확인하십시오.
+  c:\users\82109\desktop\쥬신\dym\frame125\stage2.cpp(51): note: 컴파일 중인 클래스 템플릿 인스턴스화 'CAbstractFactory<stage2Monster3>'에 대한 참조를 확인하십시오.
+  Stage1.cpp
+c:\users\82109\desktop\쥬신\dym\frame125\stage1.cpp(59): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\stage1.cpp(68): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SceneMgr.cpp
+  Scene.cpp
+  S2Monster2.cpp
+c:\users\82109\desktop\쥬신\dym\frame125\s2monster2.cpp(145): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\s2monster2.cpp(169): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  S2Monster1.cpp
+c:\users\82109\desktop\쥬신\dym\frame125\s2monster1.cpp(46): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\s2monster1.cpp(47): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\s2monster1.cpp(69): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\s2monster1.cpp(70): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\s2monster1.cpp(124): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\s2monster1.cpp(125): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\s2monster1.cpp(128): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\s2monster1.cpp(129): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\s2monster1.cpp(131): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\s2monster1.cpp(132): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\s2monster1.cpp(153): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\s2monster1.cpp(154): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\s2monster1.cpp(157): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\s2monster1.cpp(158): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\s2monster1.cpp(160): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\s2monster1.cpp(161): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  RU.cpp
+  RD.cpp
+  RazerBullet.cpp
+  Razer.cpp
+c:\users\82109\desktop\쥬신\dym\frame125\razer.cpp(81): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Player.cpp
+  Obj.cpp
+c:\users\82109\desktop\쥬신\dym\frame125\obj.cpp(39): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\obj.cpp(40): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\obj.cpp(41): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\obj.cpp(42): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MyObjMgr.cpp
+  MonsterBullet2.cpp
+  MainGame.cpp
+  LU.cpp
+  LD.cpp
+  코드를 생성하고 있습니다...
+c:\users\82109\desktop\쥬신\dym\frame125\stage2monster3.cpp(108): warning C4715: 'stage2Monster3::Update': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  컴파일하고 있습니다...
+  Hack.cpp
+  Frame125.cpp
+  Ending.cpp
+  CollisionMgr.cpp
+  BulletX.cpp
+  Bullet7.cpp
+  Bullet6.cpp
+  Bullet5.cpp
+  Bullet4.cpp
+c:\users\82109\desktop\쥬신\dym\frame125\bullet4.cpp(87): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\bullet4.cpp(90): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\bullet4.cpp(91): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\bullet4.cpp(92): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\bullet4.cpp(93): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\bullet4.cpp(97): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Bullet3.cpp
+c:\users\82109\desktop\쥬신\dym\frame125\bullet3.cpp(134): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\bullet3.cpp(135): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\bullet3.cpp(138): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\bullet3.cpp(139): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\bullet3.cpp(141): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\bullet3.cpp(142): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Bullet1_2.cpp
+  Bullet1_1.cpp
+  Bullet.cpp
+  BossBullet2.cpp
+  BossBullet.cpp
+  Boss.cpp
+c:\users\82109\desktop\쥬신\dym\frame125\boss.cpp(121): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\boss.cpp(122): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\boss.cpp(125): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\boss.cpp(126): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\boss.cpp(145): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\boss.cpp(146): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\boss.cpp(157): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\boss.cpp(158): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\boss.cpp(159): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\82109\desktop\쥬신\dym\frame125\boss.cpp(160): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+  Monster.cpp
+  Frame125.vcxproj -> C:\Users\82109\Desktop\쥬신\DYM\Debug\Frame125.exe
+  Frame125.vcxproj -> C:\Users\82109\Desktop\쥬신\DYM\Debug\Frame125.pdb (Full PDB)
